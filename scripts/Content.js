@@ -1,27 +1,4 @@
-/* function rothIRACalculation() {
-    let input = parseFloat(document.getElementById('input').value);
-    let result = input * .06;
-    document.getElementById('result').innerText = "Roth: " + result;
-}
- */
 
-/* const inputBtn = document.getElementById("input-btn")
-
-inputBtn.addEventListener("click", function(){
-   
-    let inputCheck = parseFloat(document.getElementById('input-check').value);
-    let inputPercentage = parseFloat(document.getElementById('input-percentage').value);
-    let result = inputCheck * inputPercentage;
-    document.getElementById('result').innerText = "Roth: $" + (Math.round(result * 100) / 100).toFixed(2);
-
-    if(result < 0){
-        document.getElementById('result').innerText = "Error"
-    }else if (result === 0){
-        document.getElementById('result').innerText = "None"
-    }
-   
-})
- */
 
 
     const inputBtn = document.getElementById("input-btn")
